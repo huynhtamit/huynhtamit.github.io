@@ -1,1 +1,51 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0;padding: 0;}
+
+ul.nav.navbar-nav.float-xs-right {
+    padding: 0;
+    margin: 0;
+}
+
+li.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+a.nav-link {
+    font-size: 14px;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    color:gray;
+    line-height: 38px;
+    margin: 0;
+    padding: 0 17px;
+    font-weight: 800
+}
+
+a.navbar-brand {
+    padding: 0;
+    margin: 0;
+    height: 97px;
+} 
+@media (max-width: 576px)
+{
+	*{}
+
+a.navbar-brand {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 55px;
+}
+
+a.navbar-brand img {
+    width: 65%;
+}
+
+li.nav-item a.nav-link {
+    line-height: 34px;
+    position: relative;
+    left: -46px;
+}
+
+a.nav-link {}
+}
