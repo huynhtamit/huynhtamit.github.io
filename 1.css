@@ -1,5 +1,29 @@
 *{margin: 0;padding: 0;}
 
+.col-sm-12.tieudeto {
+    margin: 40px 0px;
+}
+
+span.motaqt {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 0px;
+    display: block;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    padding-top: 10px;
+    line-height: 23px;
+    width: 100%;
+}
+
+h3.tieudecap3 {
+    font-size: 17px;
+    color: #e9585f;
+    padding: 15px 0px;
+}
+
 .thongtin .nutt {
     width: 180px;
     border: none;
@@ -82,10 +106,28 @@ a.navbar-brand {
     margin: 0;
     height: 97px;
 } 
+span.dam
+{
+	font-weight: bold;
+	font-family: tahoma;
+}
+
+h2.tieudecap2
+{
+	font-weight: normal;
+	font-family: 'segoe ui light';
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
 @media (max-width: 576px)
 {
 	*{}
-
+h2.tieudecap2
+{
+	
+	margin-top: 20px;
+}
 a.navbar-brand {
     display: block;
     width: 100%;
@@ -102,4 +144,4 @@ li.nav-item a.nav-link {
     position: relative;
     left: -46px;
 }
-
+}
