@@ -1,5 +1,34 @@
 *{margin: 0;padding: 0;}
 
+.xuong {
+    width: 40px;
+    height: 77px;
+    position: absolute;
+    border: 1px solid white;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.xuong:after {
+    margin-left: -2px;
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 8px;
+    background: white;
+    left: 50%;
+    bottom: 67%;
+}
+
+.xuong:hover {
+    bottom: 4%;
+}
+
 .col-sm-12.tieudeto {
     margin: 40px 0px;
 }
@@ -54,7 +83,7 @@ h3.tieudecap3 {
 .thongtin {
     z-index: 2;
     position: relative;
-    padding-top: 15%;
+    padding-top: 12%;
 }
 
 body,html {
@@ -111,7 +140,10 @@ span.dam
 	font-weight: bold;
 	font-family: tahoma;
 }
-
+.menutop
+{
+	height: 100px;
+}
 h2.tieudecap2
 {
 	font-weight: normal;
